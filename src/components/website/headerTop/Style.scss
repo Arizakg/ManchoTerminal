@@ -1,0 +1,38 @@
+.header_div{
+  background-color: #000;
+}
+
+.header__top {
+  background-color: #000;
+  max-width: 1260px;
+  padding:0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  margin: 0 auto;
+
+   // padding-left: 120px;
+   // padding-right: 120px;
+   // padding-bottom: 0px;
+
+}
+  
+.Lang_icons { 
+ display: flex;
+ gap: 10px;
+}
+
+.logo__en {
+  width: 32px;
+  height: 32px;
+}
+.logo__kg {
+  width: 32px;
+  height: 32px;
+}
+.logo__ru {
+  width: 32px;
+  height: 32px;
+}

@@ -1,0 +1,146 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 80px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000;
+  line-height:normal;
+  background-color: #141414;
+}
+
+.play {
+  display: flex;
+  width: 1199px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #cbea5e;
+}
+
+.content__Font-title {
+  color: gray;
+  margin: 0;
+  padding-top: 80px;
+  font-size: 64px;
+  font-weight: 700;
+
+}
+
+.content__Font-text {
+  color: #000;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  
+}
+
+.change__father {
+  display: flex;
+  width: 1199px;
+  height: 410px;
+  flex-shrink: 0;
+}
+
+.change {
+  display: flex;
+  max-width: 590px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  padding-left: 100px;
+}
+
+.blubox {
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.all {
+  display: flex;
+  width: 1199px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #06f;
+}
+
+.terminal {
+  display: flex;
+  width: 1199px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.mark {
+  display: flex;
+  width: 590px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  padding-left: 100px;
+}
+
+.term {
+  padding-left: 200px;
+  padding-right: 260px;
+}
+
+.mark__terminal {
+  display: flex;
+  width: 1199px;
+  height: 410px;
+  justify-content: space-between;
+}
+
+.map__div {
+  display: flex;
+  background-color: #fff;
+  width: 1199px;
+  height: 410px;
+  //flex-shrink: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.content__map_Font-title {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 150px;
+}
+
+.content__map_Font-text {
+  color: #fff;
+  margin: 0;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+.Kyrgysztan__video__button{
+  position: absolute;
+  z-index: -1;
+  mask-image: none;
+  height: auto;
+}
+
+.content__tekst{
+  line-height: normal;
+  height: auto;
+
+}

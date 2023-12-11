@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer">        
             <div className="footer__info">
                 <div className="footer__logo">
-                    <img src="img/logo.svg" alt="" />
+                    <img src="../../../assets/images/logo.svg" alt="" />
                     <div>
                         Finik
                     </div>     
@@ -54,22 +54,22 @@ const Footer = () => {
             <div>            
                 <ul className="footer__social">
                     <li>
-                        <img src="img/Social icon.svg" alt="" />
+                        <img src="../../../assets/images/Social icon.svg" alt="" />
                     </li>
                     <li>
-                        <img src="img/twitter.svg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/insta.svg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/in.svg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/uTube.svg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/telega.svg" alt="" />
+                        <img src="../../../assets/images/twitter.svg" alt="" />
+                    
+                    
+                        <img src="../../../assets/images/insta.svg" alt="" />
+                    
+                    
+                        <img src="../../../assets/images/in.svg" alt="" />
+                    
+                    
+                        <img src="../../../assets/images/uTube.svg" alt="" />
+                    
+                    
+                        <img src="../../../assets/images/telega.svg" alt="" />
                     </li>                             
                 </ul>            
             </div>    

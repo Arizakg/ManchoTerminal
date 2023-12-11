@@ -1,4 +1,11 @@
 import React from 'react';
+import TitleLogo from "../../../assets/images/Vector.svg";
+import WebApp from "../../../assets/images/ddd.svg";
+import GoogleAp from "../../../assets/images/GroupGoogle.svg"
+import AppleAp from "../../../assets/images/GroupApple.svg";
+import SmartHand from "../../../assets/images/iPhone 12 Pro (Wooden Hands).png";
+import KRGif from '../../../assets/images/large.mp4';
+
 import './Style.scss';
 
 const Header = () => {
@@ -6,10 +13,10 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className='Kyrgyzstan__container'>       
-          <video className="Kyrgysztan__video" src="img/large.mp4" autoPlay muted loop></video>            
+          <video className="Kyrgysztan__video" src={KRGif} autoPlay muted loop></video>            
           <div className="header__content">
             <div className="title">              
-               <img className="title__logo" src="img/Vector.svg"/>              
+               <img className="title__logo" src={TitleLogo}/>              
                <div className="title__content">Карта</div>
             </div>
             <div className="text__content">
@@ -22,7 +29,7 @@ const Header = () => {
                   <a href="#" className="list__link">
                       <div className="header__bg">
                           <div className="header__webApp">
-                              <img src="img/ddd.svg" alt="" />
+                              <img src={WebApp} alt="" />
                           </div>
                           <div>
                             <div className="goTo">Go to the</div>
@@ -33,12 +40,12 @@ const Header = () => {
               </li>
               <li className="list__button">
                 <a href="#" className="list__link">
-                  <img src="img/GroupGoogle.svg" alt="" className="list__img" />
+                  <img src={GoogleAp} alt="" className="list__img" />
                 </a>
               </li>
               <li className="list__button">
                 <a href="#" className="list__link">
-                  <img src="img/GroupApple.svg" alt="" className="list__img" />
+                  <img src={AppleAp} alt="" className="list__img" />
                 </a>
               </li>
             </ul>
@@ -73,7 +80,7 @@ const Header = () => {
             </div>
             
             <div>
-              <img className="smartHand" src="img/iPhone 12 Pro (Wooden Hands).png" alt=""/>
+              <img className="smartHand" src={SmartHand} alt=""/>
             </div> 
 
           </div>

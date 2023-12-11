@@ -1,3 +1,0 @@
-proverka svyazi  s gitom
-test
-создана ветка test

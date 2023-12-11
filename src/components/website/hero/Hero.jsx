@@ -1,12 +1,17 @@
-import React from 'react'
+import React from 'react';
 import './Style.scss';
-import KRGif from '../../../../public/img/large.mp4';
+import blubox from "../../../assets/images/blue box 1.png";
+import phone from "../../../assets/images/iPhone 14.png";
+import mac from "../../../assets/images/MacBook Pro 16.png";
+import term from "../../../assets/images/GroupTerminal.png";
+import mark from "../../../assets/images/map.png";
+import KRGif from '../../../assets/images/large.mp4';
 
 const Hero = () => {
   return (
     <div className="content">
       <div className="play">
-        <img src="img/iPhone 14.png" className="iphone14" alt="" />
+        <img src={phone} className="iphone14" alt="" />
         <div className="content__tekst">
           <p className="content__Font-title">Играй.</p>
           <p className="content__Font-text">Увлекательная игра</p>
@@ -20,11 +25,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="content__img">
-          <img src="img/blue box 1.png" className="blubox" alt="" />
+          <img src={blubox} className="blubox" alt="" />
         </div>
       </div>
       <div className="all">
-        <img src="img/MacBook Pro 16.png" className="mac" alt="" />
+        <img src={mac} className="mac" alt="" />
         <div className="content__tekst">
           <p className="content__Font-title">Везде.</p>
           <p className="content__Font-text">На всех платформах</p>
@@ -32,7 +37,7 @@ const Hero = () => {
       </div>
 
       <div className="terminal">
-        <img src="img/GroupTerminal.png" className="term" alt="" />
+        <img src={term} className="term" alt="" />
         <div className="content__tekst">
           <p className="content__Font-title">Оглянись.</p>
           <p className="content__Font-text">Терминалы везде</p>
@@ -41,7 +46,7 @@ const Hero = () => {
 
       <div className="mark__terminal">
         <div className="content__img">
-          <img src="img/map.png" className="blubox" alt="" />
+          <img src={mark} className="blubox" alt="" />
         </div>
         <div className="mark">
           <div className="content__tekst">

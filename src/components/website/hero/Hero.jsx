@@ -10,13 +10,17 @@ import KRGif from '../../../assets/images/large.mp4';
 const Hero = () => {
   return (
     <div className="content">
+
       <div className="play">
-        <img src={phone} className="iphone14" alt="" />
+        <div className='content_img'>
+          <img src={phone} className="iphone14" alt="" />
+        </div>        
         <div className="content__tekst">
           <p className="content__Font-title">Играй.</p>
           <p className="content__Font-text">Увлекательная игра</p>
         </div>
       </div>
+      
       <div className="change__father">
         <div className="change">
           <div className="content__tekst">
@@ -28,8 +32,11 @@ const Hero = () => {
           <img src={blubox} className="blubox" alt="" />
         </div>
       </div>
+
       <div className="all">
-        <img src={mac} className="mac" alt="" />
+        <div className='content_img'>
+          <img src={mac} className="mac" alt="" />   
+        </div>         
         <div className="content__tekst">
           <p className="content__Font-title">Везде.</p>
           <p className="content__Font-text">На всех платформах</p>
@@ -37,7 +44,9 @@ const Hero = () => {
       </div>
 
       <div className="terminal">
-        <img src={term} className="term" alt="" />
+        <div className='content_img'>
+          <img src={term} className="term" alt="" />  
+        </div>           
         <div className="content__tekst">
           <p className="content__Font-title">Оглянись.</p>
           <p className="content__Font-text">Терминалы везде</p>

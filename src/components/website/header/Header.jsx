@@ -25,19 +25,23 @@ const Header = () => {
             </div>
 
             <ul className="list">
+
               <li className="list__button">
+                <button className="button">
                   <a href="#" className="list__link">
-                      <div className="header__bg">
-                          <div className="header__webApp">
-                              <img src={WebApp} alt="" />
-                          </div>
-                          <div>
-                            <div className="goTo">Go to the</div>
-                            <div className="Web">Web App</div>                               
-                          </div>
-                      </div>                    
-                  </a>         
+                        <div className="header__bg">
+                            <div className="header__webApp">
+                                <img src={WebApp} alt="" />
+                            </div>
+                            <div>
+                              <div className="goTo">Go to the</div>
+                              <div className="Web">Web App</div>                               
+                            </div>
+                        </div>                    
+                    </a>        
+                </button>
               </li>
+              
               <li className="list__button">
                 <a href="#" className="list__link">
                   <img src={GoogleAp} alt="" className="list__img" />
@@ -57,14 +61,14 @@ const Header = () => {
             <div className="body__content">
 
               <div>
-                <div className="title__content">Исследуйте</div>
+                <div className="title__content">Исследуйте           </div>
                   <div>
                       Карта терминалов от Finik, исследуйте, отмечайте и зарабатывайте
                       баллы.
                 </div>
               </div>                 
               <div>
-                <div className="title__content">Отмечайте</div>
+                <div className="title__content">Отмечайте           </div>
                   <div>
                       Карта терминалов от Finik, исследуйте, отмечайте и зарабатывайте
                       баллы.

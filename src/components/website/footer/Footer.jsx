@@ -1,5 +1,12 @@
 import React from 'react'
 import './Style.scss';
+import logo from "../../../assets/images/logo.svg";
+import social from "../../../assets/images/Social icon.svg";
+import twitter from "../../../assets/images/twitter.svg";
+import insta from "../../../assets/images/insta.svg";
+import inSocial from "../../../assets/images/in.svg";
+import uTube from "../../../assets/images/uTube.svg";
+import telega from "../../../assets/images/telega.svg";
 
 const Footer = () => {
   return (
@@ -7,7 +14,7 @@ const Footer = () => {
         <div className="footer">        
             <div className="footer__info">
                 <div className="footer__logo">
-                    <img src="../../../assets/images/logo.svg" alt="" />
+                    <img src={logo} alt="" />
                     <div>
                         Finik
                     </div>     
@@ -54,22 +61,27 @@ const Footer = () => {
             <div>            
                 <ul className="footer__social">
                     <li>
-                        <img src="../../../assets/images/Social icon.svg" alt="" />
+                        <img src={social} alt="" />
                     </li>
+
                     <li>
-                        <img src="../../../assets/images/twitter.svg" alt="" />
+                        <img src={twitter} alt="" />
+                    </li>
                     
+                    <li>
+                        <img src={insta} alt="" />
+                    </li>
+
+                    <li>
+                        <img src={inSocial} alt="" />
+                    </li>
+                        
+                    <li>
+                        <img src={uTube} alt="" />
+                    </li>   
                     
-                        <img src="../../../assets/images/insta.svg" alt="" />
-                    
-                    
-                        <img src="../../../assets/images/in.svg" alt="" />
-                    
-                    
-                        <img src="../../../assets/images/uTube.svg" alt="" />
-                    
-                    
-                        <img src="../../../assets/images/telega.svg" alt="" />
+                    <li>
+                        <img src={telega} alt="" />
                     </li>                             
                 </ul>            
             </div>    

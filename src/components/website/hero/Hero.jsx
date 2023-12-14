@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div className="content">
 
-      <div className="play">
+      <div className="play container">
         <div className='content_img'>
           <img src={phone} className="iphone14" alt="" />
         </div>        
@@ -28,12 +28,12 @@ const Hero = () => {
             <p className="content__Font-text">Получай подарки</p>
           </div>
         </div>
-        <div className="content__img">
+        <div className="content_img">
           <img src={blubox} className="blubox" alt="" />
         </div>
       </div>
 
-      <div className="all">
+      <div className="all container">
         <div className='content_img'>
           <img src={mac} className="mac" alt="" />   
         </div>         
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="terminal">
+      <div className="terminal container">
         <div className='content_img'>
           <img src={term} className="term" alt="" />  
         </div>           
@@ -54,7 +54,7 @@ const Hero = () => {
       </div>
 
       <div className="mark__terminal">
-        <div className="content__img">
+        <div className="content_img">
           <img src={mark} className="blubox" alt="" />
         </div>
         <div className="mark">
